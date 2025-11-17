@@ -27,13 +27,18 @@ README.md # project documentation
 .gitignore
 '''
 
+
 ## 🛠 Environment Setup
 
 ```bash
 conda create -n sh-moe python=3.10
+conda activate sh-moe
 
-```markdown
+
 ## ▶️ Run a minimal example
+
+```bash
 python SH-MOE-Code/Main_ML.py
+
 Demo data used in the example is stored under the `Data/` folder.
 
